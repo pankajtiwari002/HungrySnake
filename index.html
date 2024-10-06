@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="board">
+    </div>
+    <img src="./img/volume-high-solid.svg" alt="" id="speakerOn">
+    <img src="./img/volume-off-solid.svg" alt="" id="speakerOff">
+    <div id="ruleButton">Rules</div>
+    <div id="levelButton">Choose Levels</div>
+    <div id="levelBox">
+        <div id="closeLevelBox">&#x2715;</div>
+        <div id="level1" class="levelButton">Easy</div>
+        <div id="level2" class="levelButton">Medium</div>
+        <div id="level3" class="levelButton">Hard</div>
+    </div>
+    <div id="ruleBox">
+        <div id="closeRuleBox">&#x2715;</div>
+        <h1>Rules :</h1>
+        <p>
+            1. Snake Head has a reddish yellow color.
+        </p>
+        <p>
+            2. If you Eat apple snake size increase.
+        </p>
+        <p>
+            3. After every 4 apple snake speed increase.
+        </p>
+        <p>
+            4. If snake bite itself then the game finished.
+        </p>
+        <p>
+            5. Your score is shown at top right corner.
+        </p>
+        <p>
+            6. In Easy Level if snake cross the boundaries then it came from opposite side
+        </p>
+        <p>
+            7. In Medium and Hard Level if you hit the boundary then the game finished
+        </p>
+    </div>
+    <div id="scoreBox">Score: 0</div>
+    <div id="highScoreBox">High Score: 0</div>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
